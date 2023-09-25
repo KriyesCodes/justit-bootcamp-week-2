@@ -22,7 +22,6 @@ h3 {
 }
 
 .nav-bar {
-  position: relative;
   position: sticky;
   background-color: lightblue;
   margin: 0;
@@ -39,4 +38,10 @@ h3 {
   bottom: 20px;
   padding: 20px;
   font-size: 30px;
+}
+
+.important {
+  position: sticky;
+  bottom: 0;
+  background-color: lightgreen;
 }
