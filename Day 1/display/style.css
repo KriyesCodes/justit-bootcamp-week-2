@@ -1,0 +1,21 @@
+/* block level element by default */
+div {
+  /* display: none; */
+  /* visibility: hidden; */
+  background-color: lightblue;
+  height: 200px;
+  width: 200px;
+}
+
+/* inline element by default */
+span {
+  /* display: block; */
+  background-color: lightpink;
+  height: 200px;
+  width: 200px;
+}
+
+/* inline-block element by default */
+img {
+  display: inline-block;
+}
