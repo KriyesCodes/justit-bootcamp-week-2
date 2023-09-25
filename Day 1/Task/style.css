@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+}
+
+p {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+h1 {
+  position: absolute;
+  margin: 0;
+  margin-left: 20px;
+  padding-top: 30px;
+}
+
+h2,
+h3 {
+  margin: 0;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.nav-bar {
+  position: relative;
+  position: sticky;
+  background-color: lightblue;
+  margin: 0;
+  height: 100px;
+  top: 0;
+}
+
+.message-box {
+  background-color: lightpink;
+  position: fixed;
+  width: 200px;
+  height: 200px;
+  right: 20px;
+  bottom: 20px;
+  padding: 20px;
+  font-size: 30px;
+}
