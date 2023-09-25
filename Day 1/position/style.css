@@ -1,0 +1,52 @@
+.box1 {
+  height: 200px;
+  width: 200px;
+  background-color: dodgerblue;
+  border: 2px solid black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 64px;
+  text-align: center;
+}
+
+.box2 {
+  height: 100px;
+  width: 100px;
+  background-color: crimson;
+  border: 2px solid black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 64px;
+  text-align: center;
+}
+
+/* Position Code Below: */
+
+/* position is static by default for all elements */
+
+.box1 {
+  position: sticky;
+
+  /* top, left, right, bottom - values to determine a position.
+   They work differently depending on the position type. For relative, they are like offsets, for absolute they work like */
+
+  /* Z-index - Sets the order of the elements */
+
+  /* Both properties can only be applied elements with a non static position */
+
+  /* Relative position - allows us to offset the element relative to its starting position */
+
+  /* Stick position - toogles between relative and fixed, stays relative and becomes fixed as an overlay when you scroll past its relative position. */
+
+  /* top: 200px; */
+
+  top: 0;
+}
+
+.box2 {
+  /* Absolutely positioned elements position themselves absolutely inside the parent element.
+  If no element is found, it uses the viewport / browser window.*/
+  position: absolute;
+  top: 100px;
+  right: 50px;
+}
