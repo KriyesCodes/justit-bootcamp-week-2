@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
+
+  <title>Pseudo Elements</title>
+</head>
+
+<body>
+  <h1>Pseudo Elements</h1>
+
+  <div class="section-container">
+    <h2>What is a Pseudo Element?</h2>
+    <p>
+      A CSS pseudo-element is a keyword added to a selector that lets you style a specific part of the selected
+      element(s).
+    </p>
+  </div>
+  <div class="section-container">
+    <h2>
+      Syntax
+    </h2>
+    <p id="syntax-paragraph">
+      <span id="selector-span">selector</span><span id="double-colon-span">::</span><span
+        id="pseudo-element-span">pseudo-element</span> {
+      <br>
+      &nbsp;&nbsp;&nbsp;&nbsp; property: value;
+      <br>
+      }
+    </p>
+  </div>
+
+  <div class="section-container">
+    <h2>
+      Some Examples
+    </h2>
+    <div class="example-container">
+      <h3>::after</h3>
+      <p>
+        Add content after the content defined in the html document.
+      </p>
+      <img src="./after-pseudo-element-example.png">
+    </div>
+    <div class="example-container">
+      <h3>::first-letter</h3>
+      <p>
+        Change the styling of the first letter of an element.
+      </p>
+      <img src="./first-letter-pseudo-element-example.png">
+    </div>
+    <div class="example-container">
+      <h3>::file-selector-button</h3>
+      <p>
+        Change styling of the button that opens the file selection window for file type input element.
+      </p>
+      <img src="./file-selector-button-pseudo-element-example.png">
+    </div>
+    <div class="example-container">
+      <h3>::marker</h3>
+      <p>
+        Change the marker infront of list items (The black dot and numbers for unordered and ordered list respectively).
+      </p>
+      <img src="./marker-pseudo-element-example.png">
+    </div>
+    <div class="example-container">
+      <h3>::selection</h3>
+      <p>
+        Change styling of whatever the user has selected with the cursor.
+      </p>
+      <p class="selection">
+        This is an example paragraph to showcase the selection pseudo element.
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab praesentium sapiente architecto quasi facere
+        asperiores qui iusto harum inventore dicta?
+      </p>
+    </div>
+  </div>
+
+</body>
+
+</html>
