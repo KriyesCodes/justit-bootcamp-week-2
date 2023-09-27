@@ -35,15 +35,19 @@ h1 {
 
 }
 
+.box4 {
+    background-color: rgb(255, 36, 255);
+}
+
 /* Flexbox Code Below: */
 
 .container {
     display: flex;
-    /* flex-direction is row by default */
-    /* flex-direction: column-reverse; */
+    /* flex-direction is row by default, it sets the main axis*/
+    /* flex-direction: column; */
 
     /* flex-wrap is nowrap by default */
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 
     /* justify-content is flex-start by default */
     /* justify-content: flex-start; */
@@ -52,21 +56,49 @@ h1 {
     /* align-items: flex-start; */
 
     /* wrap must be enabled for align-content to work */
-    /* align-content: space-around; */
+    /* align-content: flex-start; */
+
+    /* gap: 5px;
+    row-gap: 5px;
+    column-gap: 10px; */
 }
 
-.box1 {
+/* .box {
+    flex-basis: 200px;
+} */
 
+.box1 {
     /* baseline positions where the text would naturally line itself */
-    align-self: baseline;
-    font-size: 2rem;
+    /* align-self: baseline;
+    font-size: 2rem; */
+
+    /* flex-basis: 500px; */
+    /* flex-shrink: 5; */
+
+    min-width: 400px;
 }
 
 .box2 {
-    align-self: baseline;
-    font-size: 3rem;
+    /* align-self: baseline;
+    font-size: 3rem; */
+
+    /* flex-basis: 200px; */
+    /* flex-shrink: 1; */
 }
 
 .box3 {
-    align-self: baseline;
+    /* align-self: baseline; */
+
+    /* flex-basis: 200px; */
+    /* flex-shrink: 1; */
+}
+
+.box4 {
+    /* flex-basis: 200px; */
+    /* flex-shrink: 1; */
+}
+
+.innerBox {
+    background-color: dodgerblue;
+    border: 2px solid white;
 }
