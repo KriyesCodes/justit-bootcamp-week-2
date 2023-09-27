@@ -36,3 +36,37 @@ h1 {
 }
 
 /* Flexbox Code Below: */
+
+.container {
+    display: flex;
+    /* flex-direction is row by default */
+    /* flex-direction: column-reverse; */
+
+    /* flex-wrap is nowrap by default */
+    flex-wrap: wrap;
+
+    /* justify-content is flex-start by default */
+    /* justify-content: flex-start; */
+
+    /* align-tems is stretch by default */
+    /* align-items: flex-start; */
+
+    /* wrap must be enabled for align-content to work */
+    /* align-content: space-around; */
+}
+
+.box1 {
+
+    /* baseline positions where the text would naturally line itself */
+    align-self: baseline;
+    font-size: 2rem;
+}
+
+.box2 {
+    align-self: baseline;
+    font-size: 3rem;
+}
+
+.box3 {
+    align-self: baseline;
+}
