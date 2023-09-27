@@ -83,19 +83,19 @@ h1 {
     font-size: 3rem; */
 
     /* flex-basis: 200px; */
-    /* flex-shrink: 1; */
+    flex-shrink: 1;
 }
 
 .box3 {
     /* align-self: baseline; */
 
     /* flex-basis: 200px; */
-    /* flex-shrink: 1; */
+    flex-shrink: 1;
 }
 
 .box4 {
     /* flex-basis: 200px; */
-    /* flex-shrink: 1; */
+    flex-shrink: 1;
 }
 
 .innerBox {
