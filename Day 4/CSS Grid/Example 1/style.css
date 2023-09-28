@@ -19,3 +19,13 @@
 }
 
 /* Grid Code Below */
+
+.container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    /* grid-template-columns: repeat(3, 1fr); */
+    /* grid-template-rows: 1fr 1fr; */
+    /* column-gap: 0.5em; */
+    /* row-gap: 0.5em; */
+    gap: 0.5em;
+}
