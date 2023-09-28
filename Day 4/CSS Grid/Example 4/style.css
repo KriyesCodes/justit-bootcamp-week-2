@@ -19,3 +19,36 @@
 }
 
 /* Grid Code Below */
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 150px 320px 320px 150px;
+    gap: 5px;
+
+    grid-template-areas:
+        'h h h h'
+        'm m m a'
+        'm m m s'
+        'f f f f';
+}
+
+.header {
+    grid-area: h;
+}
+
+.main {
+    grid-area: m;
+}
+
+.aside {
+    grid-area: a;
+}
+
+.section {
+    grid-area: s;
+}
+
+.footer {
+    grid-area: f;
+}
